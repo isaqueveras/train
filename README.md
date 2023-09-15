@@ -1,14 +1,19 @@
-# Train Protocol
+# 🚂 Train Protocol
 Train is a distribution protocol for any content that can be consumed by humans.
 
 ```json
 {
-  "channel": {},
+  "channel": {
+    "uuid": "",
+    "icon": "",
+    "title": ""
+  },
   "items": [
     {
       "link": "",
       "title": "",
       "description": "",
+      "authors": [""],
       "content" : "",
       "language": "",
       "imagem": {
